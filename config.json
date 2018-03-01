@@ -14,7 +14,7 @@
   "posting_key": "5KcS4oNDfJk26DWhezdXrdetQizkN3pBfTpkwtFxiX5aSRi29JY",
   "active_key": "5KKWr51heMGriPKpcUmVaGyxR1A1okqmrS7a3QG1ePntyCSrtMz",
   "auto_claim_rewards" : true,
-  "post_rewards_withdrawal_account": "rougebot",
+  "post_rewards_withdrawal_account": "",
   "min_bid": 0.010,
   "max_bid": 0.100,
   "batch_vote_weight": 100,
@@ -31,7 +31,7 @@
   "refund_blacklist": false,
   "blacklist_donation_account": "steemcleaners",
   "blacklisted_tags": ["nsfw"],
-  "max_per_author_per_round": 1,
+  "max_per_author_per_round": 5,
   "auto_withdrawal": {
     "active": true,
     "accounts": [
@@ -43,7 +43,7 @@
         ]
       },
       {
-        "name": "account2",
+        "name": "rougebot",
         "stake": 2000
       }
     ],
